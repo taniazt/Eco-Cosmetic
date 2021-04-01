@@ -30,17 +30,35 @@
 
   &__name {
     @include input-field;
-    padding-top: 20px;
+    padding-top: 19px;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 1000px $beige inset;
+    }
   }
 
   &__email {
     @include input-field;
     padding-top: 30px;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 1000px $beige inset;
+    }
   }
 
   &__tel {
     @include input-field;
     padding-top: 30px;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 1000px $beige inset;
+    }
   }
 
   &__message {
