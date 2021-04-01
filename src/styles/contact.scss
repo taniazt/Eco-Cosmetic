@@ -63,7 +63,8 @@
 
   &__message {
     @include input-field;
-    padding-top: 61px;
+    padding-top: 58px;
+    overflow: hidden;
   }
 
   &__button {
